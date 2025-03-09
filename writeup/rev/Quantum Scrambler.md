@@ -1,0 +1,1 @@
+picoCTF{python_is_weirdb57142ff}
