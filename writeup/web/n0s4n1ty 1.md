@@ -6,7 +6,7 @@ A developer has added profile picture upload functionality to a website. However
 
 ## Solution
 
-
+Upload webshell
 
 ## Flag
     picoCTF{wh47_c4n_u_d0_wPHP_712a9451}
