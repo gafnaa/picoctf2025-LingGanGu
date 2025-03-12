@@ -3,7 +3,7 @@ import time
 
 
 # Read in flag from file
-flag = open('flag.txt', 'r').read()
+#flag = open('flag.txt', 'r').read()
 
 secret_intro = \
 '''Pico warriors rising, puzzles laid bare,
@@ -127,6 +127,6 @@ def reader(song, startLabel):
         time.sleep(0.5)
         lip += 1
 
-
+print(crowd)
 print(flag)
 reader(song_flag_hunters, '[VERSE1]')
