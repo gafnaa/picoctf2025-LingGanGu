@@ -6,8 +6,9 @@ by Rey
 - The author gave a hint that says "country that doesn't exist may have the flag"
 - The title is "flags are stepic"
 
-With the known hint, we can get the flag by these steps
+With those known hints, we can get the flag by these steps
 
+## Steps
 1. Open the website
 2. Find the flag that is not an any country flag. I've found there is one flag says "uplink network" that is very obviously that it is not a country flag.
 3. I downloaded the flag
