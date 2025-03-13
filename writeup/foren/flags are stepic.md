@@ -16,6 +16,19 @@ With those known hints, we can get the flag by these steps
 5. So I created code to decrypt the file with python using stepic.
 
 The code:
+```
+import stepic
+from PIL import Image
+
+def decode_message(image_path):
+    img = Image.open(image_path)
+    decoded_message = stepic.decode(img)
+    return decoded_message.decode('utf-8')
+
+image_path = "hidden_message.png"
+message = decode_message(image_path)
+print("Decoded message:", message)
+```
 
 6. Finally we got the flag
 
