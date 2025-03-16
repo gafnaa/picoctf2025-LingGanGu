@@ -6,7 +6,15 @@ A developer has added profile picture upload functionality to a website. However
 
 ## Solution
 
-Upload webshell
+Upload webshell/php shell that contain terminal
+Here I use `b374k.php` for this chall.
 
+then do this command on the webshell terminal
+
+```
+sudo cat /root/flag.txt
+```
+
+![Gambar WhatsApp 2025-03-09 pukul 19.11.11_4987fe3c](/assets/Gambar%20WhatsApp%202025-03-09%20pukul%2019.11.11_4987fe3c.jpg)
 ## Flag
     picoCTF{wh47_c4n_u_d0_wPHP_712a9451}
