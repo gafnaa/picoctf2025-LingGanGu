@@ -40,5 +40,17 @@ getattr(__import__('subprocess'), 'getoutput')('file_path=$(echo "Y2F0IC9mbGFnLn
 
 and you will get the flag.
 
+or
+
+use this command
+```py
+eval("open(flag.txt).read()")
+```
+
+filtering regex
+```py
+open(chr(47)+'flag'+chr(46)+'txt').read()
+```
+
 ## Flag
     picoCTF{D0nt_Use_Unsecure_f@nctions0cd8a9f1}

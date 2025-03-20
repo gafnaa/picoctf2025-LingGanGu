@@ -3,6 +3,7 @@
 ## Description
 Can you win in a convincing manner against this chess bot? He won't go easy on you!
 You can find the challenge here.
+
 ## Solution
 
 the vulnerability turned out to be surprisingly simple. The challenge description asked us to “win in a convincing manner,” which suggested we needed to make the chess engine believe it’s in a completely lost position.
